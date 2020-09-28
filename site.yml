@@ -1,0 +1,16 @@
+---
+
+# Site playbook
+- hosts: all
+  tasks:
+    - name: Print public infos
+      debug:
+        msg: "{{ hello_world }}"
+
+    - name: Print secrets
+      debug:
+        msg: "Secret value of top_secret_string: {{ top_secret_string }}"
+    - debug:
+        msg: "Secret value of top_secret_int: {{ top_secret_int }}"
+    - debug:
+        msg: "Secret value of top_secret_float: {{ top_secret_float }}"
