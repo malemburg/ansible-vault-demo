@@ -2,4 +2,6 @@ pyenv
 *.bak
 *~
 *.pyc
-.vault*
+.*
+__pycache__
+
