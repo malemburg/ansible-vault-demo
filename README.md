@@ -1,8 +1,25 @@
 Ansible Vault Demo Repository
 =============================
 
-This repo is used as demo repository for the Ansible Vault talk
-at Python Meeting Düsseldorf 2020-09-30.
+This repo is used as demo repository for the Ansible Vault talk at Python Meeting Düsseldorf 2020-09-30.
+
+Configuration
+--------------
+
+ansible.cfg
+:   Sets the default Ansible parameters
+
+hosts.ini / hosts.yml
+:   Hosts inventory; as INI of YAML file
+
+site.yml
+:   Playbook
+
+group_vars
+:   Group variable files
+
+.vault-password
+:   Vault password file (DO NOT COMMIT TO REPO!)
 
 Installation
 ------------
