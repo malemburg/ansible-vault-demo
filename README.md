@@ -39,7 +39,7 @@ Commands
 
 List host inventory:
 
-    ansible-inventory --ask-vault-password --list
+    ansible-inventory --list
 
 Edit secret variables:
 
@@ -47,4 +47,4 @@ Edit secret variables:
 
 Run playbook:
 
-    ansible-playbook --ask-vault-password site.yml
+    ansible-playbook site.yml
